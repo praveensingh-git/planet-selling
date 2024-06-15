@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Planet</title>
+    <style>
+        
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            font-weight: bold ;
+            color: whitesmoke;
+            
+        }
+        body{
+            background-color: #024950 ;
+            font-family: "Playwrite FR Moderne";
+        }
+        header{
+            height: 80px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-bottom: 1px solid black;
+        }
+        ul{
+            display: flex;
+            list-style-type:none;
+        }
+        li{
+            margin: 0px 0px 20px 20px;
+            text-decoration: none;
+            border: 1px solid wheat;
+            padding: 10px;
+            border-radius: 40px;
+        }
+        .signup:hover{
+            background-color: black;
+            color: white;
+        }
+        main{
+            display: flex;
+            justify-content: space-evenly;
+            height: 90vh;
+            align-items: center;
+            margin: 0px 150px;
+            
+
+        }
+         main h2{
+            font-size: 30px;
+         }
+
+         main p{
+            line-height: 40px;
+         }
+
+         
+        .left{
+            flex:1;
+        }
+        .mid{
+            flex: 2;
+        }
+        .right{
+            flex: 1;
+        }
+        img {
+ max-width: 500px;
+ max-height: auto;
+}
+    .btn{
+        padding:15px 30px;
+        background-color: #ffbd03;
+        border-radius: 50px;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 700;
+        margin-top: 20px;
+        
+    }
+    .btn:hover{
+        background-color: #5783db;
+        border:2px solid white;
+
+    }
+
+       
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="" alt=" logo"></div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Offer</a></li>
+                <li><a href="#">Buy Now</a></li>
+                <li><a href="#">About Us</a></li>
+                <li class="signup"><a href="#">Sign up</a></li>
+                <li><a href="#">Contact us</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="left">
+            <h2>Saturn</h2>
+            
+        </div>
+        <div class="mid">
+            <p>Saturn is the sixth planet from the Sun and the second largest planet in our solar system. Adorned with a dazzling system of icy rings,
+                Saturn is unique among the planets. It is not the only planet to have rings,
+                but none are as spectacular or as complex as Saturn's.</p>
+                <button class="btn">Buy Now</button>
+            </div>
+        <div class="right">
+            <img src="saturn.png" alt="Saturn">
+        </div>
+    </main>
+    
+    <footer>
+
+    </footer>
+</body>
+</html>
